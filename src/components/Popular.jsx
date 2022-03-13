@@ -23,7 +23,9 @@ function Popular() {
     <div>   
         <Wrapper>
           <h3>Popular Recipes</h3>
-          <CardSection recipesList={popularRcp} />
+          <CardWrapper>
+            <CardSection recipesList={popularRcp} />
+          </CardWrapper>
         </Wrapper> 
     </div>
   )
@@ -32,5 +34,16 @@ function Popular() {
 const Wrapper = styled.div `
   margin: 2rem 0rem;
 `
+const CardWrapper = styled.div`
+  background: #fff;
+  border-radius: 20px;
+  display: inline-block;
+  position: relative;
+  width:100%;
+  padding: 1rem;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  margine-right:200px;
+  z-index: 10px;
+`;
 
 export default Popular

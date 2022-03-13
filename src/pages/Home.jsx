@@ -14,7 +14,14 @@ function Home() {
 }
 
 const Wrapper = styled.div`
-  margin: 0% 10%;
+  margin: 5% 10%;
+  background: #fff;
+  border-radius: 4px;
+  display: inline-block;
+  position: relative;
+  width: 80%;
+  padding: 2rem;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 `;
 
 export default Home

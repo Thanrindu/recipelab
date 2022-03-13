@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/recipelab/static/css/main.49d2d927.css",
+    "main.js": "/recipelab/static/js/main.0c28000e.js",
+    "static/js/787.71cac261.chunk.js": "/recipelab/static/js/787.71cac261.chunk.js",
+    "index.html": "/recipelab/index.html",
+    "main.49d2d927.css.map": "/recipelab/static/css/main.49d2d927.css.map",
+    "main.0c28000e.js.map": "/recipelab/static/js/main.0c28000e.js.map",
+    "787.71cac261.chunk.js.map": "/recipelab/static/js/787.71cac261.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.49d2d927.css",
+    "static/js/main.0c28000e.js"
+  ]
+}

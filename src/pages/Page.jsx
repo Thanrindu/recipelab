@@ -7,8 +7,8 @@ import {Route, Routes} from 'react-router-dom'
 function Page() {
   return (
     <Routes>
-      <Route path='/' element={<Home />}></Route>
-      <Route path='/cuisine/:type' element={<Cuisine />}></Route>
+      <Route path='/recipelab' element={<Home />}></Route>
+      <Route path='recipelab/cuisine/:type' element={<Cuisine />}></Route>
     </Routes>
   )
 }

@@ -10,7 +10,7 @@ function HeroHeader() {
         <div class="hero">
             <header class="container row">
                 <a href="#" class="logo">
-                    <img src="./logo.svg" alt="" />
+                    <img src={process.env.PUBLIC_URL + 'images/logo192.png'} alt="" />
                 </a>
                 <nav class="navigation row">
                     
@@ -30,13 +30,13 @@ function HeroHeader() {
                     <p>Food === life, dont forget to eat</p>
                 </div>
                 <div class="img">
-                    <img  src="./burger.png"/>
+                    <img  src={process.env.PUBLIC_URL + '/images/burger.png'} />
                     <span></span>
                 </div>
             </section>
         </div>
         <div>
-            <img  src="./wave1.png" class="waveimg"/>
+            <img  src={process.env.PUBLIC_URL + '/images/wave1.png'} class="waveimg"/>
         </div>
     </HeaderWrapper>
      </> 
@@ -54,7 +54,7 @@ const HeaderWrapper = styled.div`
 
 position: relative;
 font-family: 'Poppins', sans-serif;
-background-image: linear-gradient(to right top, #e2e9fb, #e9ecfa, #eff0f9, #f4f4f9, #f8f8f8);
+background-image: linear-gradient(to right top, #f0f0f0, #f4f4f4, #f7f7f7, #fbfbfb, #ffffff);
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;

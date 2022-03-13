@@ -34,6 +34,9 @@ function Cuisine() {
 }
 
 const Grid = styled.div`
+  margin-left: 10%;
+  margin-top: 5%;
+  margin-right: 10%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
   grid-gap: 3rem;

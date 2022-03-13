@@ -5,7 +5,6 @@ import Search from './Search';
 
 function HeroHeader() {
   return (
-     <>
     <HeaderWrapper>
         <div class="hero">
             <header class="container row">
@@ -39,7 +38,6 @@ function HeroHeader() {
             <img  src={process.env.PUBLIC_URL + '/images/wave1.png'} class="waveimg"/>
         </div>
     </HeaderWrapper>
-     </> 
   )
 }
 
